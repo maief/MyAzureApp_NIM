@@ -37,7 +37,7 @@ jobs:
           appSourcePath: ${{ github.workspace }}
           _dockerfilePathKey_: _dockerfilePath_
           _targetLabelKey_: _targetLabel_
-          registryUrl: 
+          registryUrl: nimregistry.azurecr.io
           registryUsername: ${{ secrets.MYAZUREAPPNIM_REGISTRY_USERNAME }}
           registryPassword: ${{ secrets.MYAZUREAPPNIM_REGISTRY_PASSWORD }}
           containerAppName: myazureapp-nim
