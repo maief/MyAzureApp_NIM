@@ -48,4 +48,4 @@ steps:
       # 🔥 NETWORK
       targetPort: 8080
       ingress: external
-```
+
